@@ -136,16 +136,16 @@ public:
 
 extern ROSTIME_DECL const Duration DURATION_MAX;
 extern ROSTIME_DECL const Duration DURATION_MIN;
-template<> const Duration DurationBase<Duration>::MAX;
-template<> const Duration DurationBase<Duration>::MIN;
-template<> const Duration DurationBase<Duration>::ZERO;
-template<> const Duration DurationBase<Duration>::DAY;
-template<> const Duration DurationBase<Duration>::HOUR;
-template<> const Duration DurationBase<Duration>::MINUTE;
-template<> const Duration DurationBase<Duration>::SECOND;
-template<> const Duration DurationBase<Duration>::MILLISECOND;
-template<> const Duration DurationBase<Duration>::MICROSECOND;
-template<> const Duration DurationBase<Duration>::NANOSECOND;
+// template<> const Duration DurationBase<Duration>::MAX;
+// template<> const Duration DurationBase<Duration>::MIN;
+// template<> const Duration DurationBase<Duration>::ZERO;
+// template<> const Duration DurationBase<Duration>::DAY;
+// template<> const Duration DurationBase<Duration>::HOUR;
+// template<> const Duration DurationBase<Duration>::MINUTE;
+// template<> const Duration DurationBase<Duration>::SECOND;
+// template<> const Duration DurationBase<Duration>::MILLISECOND;
+// template<> const Duration DurationBase<Duration>::MICROSECOND;
+// template<> const Duration DurationBase<Duration>::NANOSECOND;
 
 /**
  * \brief Duration representation for use with the WallTime class.
@@ -172,16 +172,16 @@ public:
   bool sleep() const;
 };
 
-template<> const WallDuration DurationBase<WallDuration>::MAX;
-template<> const WallDuration DurationBase<WallDuration>::MIN;
-template<> const WallDuration DurationBase<WallDuration>::ZERO;
-template<> const WallDuration DurationBase<WallDuration>::DAY;
-template<> const WallDuration DurationBase<WallDuration>::HOUR;
-template<> const WallDuration DurationBase<WallDuration>::MINUTE;
-template<> const WallDuration DurationBase<WallDuration>::SECOND;
-template<> const WallDuration DurationBase<WallDuration>::MILLISECOND;
-template<> const WallDuration DurationBase<WallDuration>::MICROSECOND;
-template<> const WallDuration DurationBase<WallDuration>::NANOSECOND;
+// template<> const WallDuration DurationBase<WallDuration>::MAX;
+// template<> const WallDuration DurationBase<WallDuration>::MIN;
+// template<> const WallDuration DurationBase<WallDuration>::ZERO;
+// template<> const WallDuration DurationBase<WallDuration>::DAY;
+// template<> const WallDuration DurationBase<WallDuration>::HOUR;
+// template<> const WallDuration DurationBase<WallDuration>::MINUTE;
+// template<> const WallDuration DurationBase<WallDuration>::SECOND;
+// template<> const WallDuration DurationBase<WallDuration>::MILLISECOND;
+// template<> const WallDuration DurationBase<WallDuration>::MICROSECOND;
+// template<> const WallDuration DurationBase<WallDuration>::NANOSECOND;
 
 ROSTIME_DECL std::ostream &operator <<(std::ostream &os, const Duration &rhs);
 ROSTIME_DECL std::ostream &operator <<(std::ostream &os, const WallDuration &rhs);
